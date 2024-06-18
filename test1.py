@@ -6,7 +6,8 @@ while cont != 3:
     name.append(nom)
     cont +=1
 nl = ""
+print("Imprimiendo mi primera colaboración")
 for n in name:
     if len(name) > len(nl):
-        nl = n   
+        nl = n + "s"  
 print(f"el nombre mas largo es {nl}")
