@@ -1,13 +1,13 @@
+asistencia=[1,1,1,1,1,1,1]
 
-name = []
-cont = 0
-while cont != 3:
-    nom =(input("Ingrese un nombre :"))
-    name.append(nom)
-    cont +=1
-nl = ""
-print("Imprimiendo mi primera colaboración")
-for n in name:
-    if len(name) > len(nl):
-        nl = n + "s"  
-print(f"el nombre mas largo es {nl}")
+def ri(asistencia):
+    for dia in asistencia:
+        promedio=(dia+dia+dia+dia+dia+dia+dia)/7
+        if promedio>=0.65:
+            return print("aprobó")
+        else:
+            return print("reprobó")
+        
+ri(asistencia)
+
+                
