@@ -1,7 +1,7 @@
 import csv 
 with open('estudiantes_archivo.csv', 'w', newline='') as archivo_csv:
     escritor_csv = csv.writer(archivo_csv)
-    escritor_csv.writerow(['Nombre', 'p1',"p2","p3","a1","a2","a3","a4","a5"])
+#    escritor_csv.writerow(['Nombre', 'p1',"p2","p3","a1","a2","a3","a4","a5"])
     escritor_csv = csv.writer(archivo_csv)
     escritor_csv.writerows([["AGUIRRE HENRIQUEZ JAVIERA ANDREA","50","37","70","1","0","0","1","1"],
                             ["ALBORNOZ SEPULVEDA JOSE IGNACIO","56","35","48","0","1","1","1","1"],
