@@ -1,13 +1,6 @@
 
-name = []
-cont = 0
-while cont != 3:
-    nom =(input("Ingrese un nombre :"))
-    name.append(nom)
-    cont +=1
-nl = ""
-print("Imprimiendo mi primera colaboración")
-for n in name:
-    if len(name) > len(nl):
-        nl = n + "s"  
-print(f"el nombre mas largo es {nl}")
+
+def calcular_np(p1,p2,p3):
+    np = p1*0,30 + p2 *0,35 + p3 *0,35
+    return print(np)
+
