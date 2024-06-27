@@ -1,4 +1,4 @@
-asistencia=[1,1,1,1,1,1,1]
+
 
 def ri(asistencia):
     for dia in asistencia:
@@ -8,6 +8,9 @@ def ri(asistencia):
         else:
             return print("reprobó")
         
-ri(asistencia)
+def np_ri_actualizado (np, ri):
+    with open ('ista.csv', 'w', newline='') as ista_csv:
+        escritor_csv=csv.writer(ista_csv)
+        escritor_csv.writerow([nombre, nota, asistencia])
 
                 
